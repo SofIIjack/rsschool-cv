@@ -21,7 +21,7 @@ Sofia_Roschinskaya(@sofiijack)
   } else {
     return names[0] + ", " + names[1] + " and " + (names.length - 2) + " others like this";
   }
-}
+}```
 
 6. I don't have experience as a junior developer yet. Rs.school
 

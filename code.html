@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv_project_code</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <!-- подключить шрифты -->
+</head>
+<body>
+    
+        <article class="code">
+            <div class="container-code">
+                <h1 class="code-header">Code example</h1>
+        
+                <div class="code-img">
+                    <img src="./assets/img/JS_full.ico" alt="js code">
+                </div>
+
+                <div class="code-description">
+                    <p>Like counter</p>
+                    <p><code>
+                        function likes(names) {<br>
+                         if (names.length == 0) {<br>
+                         return "no one likes this";<br>
+                        } else if (names.length == 1) {<br>
+                             return names[0] + " likes this";<br>
+                         } else if (names.length == 2) {<br>
+                          return names[0] + " and " + names[1] + " likes this";<br>
+                        } else if (names.length == 3) {<br>
+                          return names[0] + ", " + names[1] + " and " + names[2] + " likes this";<br>
+                         } else {<br>
+                             return names[0] + ", " + names[1] + " and " + (names.length - 2) + " other like this";<br>
+                            }<br>
+                        }<br>
+                     </code>
+                    </p>
+                </div>
+
+                <a href="index.html" class="code-btm-back">Go back to main page</a>
+            </div>
+        </article>
+
+    <!-- Foter -->
+
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="footer-row">
+
+                <div class="footer-copyright footer-col">
+                    <div class="footer-copyright-name">&#169; Sofiya Bolatava 2022</div>
+                    <p>Website layout and development</p>
+                </div>
+                
+                <!-- footer icons -->
+                <div class="footer-icons footer-col">
+                    <p>My social profile</p>
+                    <div class="footer-icons-row">
+                        <a href="#">
+                            <img scr="./assets/favicon.ico/icons8-instagram-48.ico" alt="icon inst">
+                        </a>
+                        <a href="#">
+                            <img scr="./assets/favicon.ico" alt="icon2">
+                        </a>
+                    </div>
+                </div>
+                <!-- //footer icons -->
+
+                <div class="footer-contacts footer-col">
+                    <a href="#" class="footer-button">Связаться Вконтакте
+                    </a>
+                    <p>Write to me to find out the cost of services.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
